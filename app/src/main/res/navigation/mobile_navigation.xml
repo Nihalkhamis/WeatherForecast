@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.kotlin.weatherforecast.home.homefragment.view.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+
+    <fragment
+        android:id="@+id/oneFavDetailsFragment"
+        android:name="com.kotlin.weatherforecast.home.oneFavDetails.view.OneFavDetailsFragment"
+        tools:layout="@layout/one_fav_details_fragment" >
+
+        <argument
+            android:name="lat"
+            app:argType="string"
+            android:defaultValue="0.0" />
+        <argument
+            android:name="long"
+            app:argType="string"
+            android:defaultValue="0.0" />
+
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_alert"
+        android:name="com.kotlin.weatherforecast.home.alert.view.AlertFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_alert" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.kotlin.weatherforecast.home.settings.view.SettingsFragment"
+        android:label="@string/action_settings"
+        tools:layout="@layout/settings_fragment"
+        />
+    <fragment
+        android:id="@+id/favouritesFragment"
+        android:name="com.kotlin.weatherforecast.home.favourites.view.FavouritesFragment"
+        android:label="@string/favourites_fragment"
+        tools:layout="@layout/fragment_favourites">
+        <action
+            android:id="@+id/action_favouritesFragment_to_favDetails_nav"
+            app:destination="@id/oneFavDetailsFragment" >
+
+        </action>
+    </fragment>
+</navigation>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WeatherForecast</string>
+    <string name="initial_setup">الاعدادات المبدئية</string>
+    <string name="location">العنوان</string>
+    <string name="GPS">الموقع</string>
+    <string name="Map">خريطة</string>
+    <string name="notification">إشعارات</string>
+    <string name="ok">موافق</string>
+    <string name="title_activity_home">المنزل</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">الاعدادات</string>
+
+    <string name="menu_home">المنزل</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">تنبيهات</string>
+    <string name="weather">الطقس</string>
+    <string name="menu_favourites">المفضلة</string>
+    <string name="menu_alerts">تنبيهات</string>
+    <string name="pressure_unit">hpa</string>
+    <string name="pressure">الضغط</string>
+    <string name="percentage">%</string>
+    <string name="title_activity_maps">الخريطة</string>
+    <string name="language">اللغة</string>
+    <string name="english">الإنجليزية</string>
+    <string name="arabic">العربية</string>
+    <string name="temperature">درجة حرارة</string>
+    <string name="windSpeed">سرعة الرياح</string>
+    <string name="celsius">درجة مئوية</string>
+    <string name="kelvin">كلفن</string>
+    <string name="fahrenheit">فهرنهايت</string>
+    <string name="m_sec">متر / ثانية</string>
+    <string name="mile_h">ميل / ساعة</string>
+    <string name="notifications">الإشعارات</string>
+    <string name="enable">تفعيل</string>
+    <string name="disable">تعطيل</string>
+    <string name="save">حفظ</string>
+    <string name="delete">حذف</string>
+    <string name="from">من</string>
+    <string name="to">الى</string>
+    <string name="notification_time">ميعاد الاشعارات</string>
+    <string name="humidity">الرطوبة</string>
+    <string name="wind">الرياح</string>
+    <string name="cloud">السحاب</string>
+    <string name="ultraViolet">فوق بنفسجي</string>
+    <string name="visibility">صفاء</string>
+    <string name="m">" م"</string>
+    <string name="f">F</string>
+    <string name="k">K</string>
+    <string name="c">C</string>
+    <string name="favourites_fragment">"المفضلة "</string>
+</resources>

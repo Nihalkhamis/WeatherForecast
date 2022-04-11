@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/drawable-v24/add_ic.xml" value="0.1395" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/drawable/button_rounded.xml" value="0.158" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/drawable/home_ic.xml" value="0.2195" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/drawable/oval_vertical.xml" value="0.2125" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/drawable/round_corner.xml" value="0.158" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/drawable/settings_ic.xml" value="0.2195" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/drawable/side_nav_bar.xml" value="0.1725" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/drawable/thumb.xml" value="0.158" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/drawable/titles_settings.xml" value="0.1415" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/drawable/today_weahter_box.xml" value="0.2125" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/drawable/toggle.xml" value="0.158" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/drawable/toolbar.xml" value="0.2195" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/drawable/track.xml" value="0.1565" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/layout/activity_maps.xml" value="0.25416666666666665" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/layout/alert_single.xml" value="0.25416666666666665" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/layout/alerts_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/layout/app_bar_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/layout/content_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/layout/fragment_alert.xml" value="0.25416666666666665" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/layout/fragment_favourites.xml" value="0.25416666666666665" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/layout/fragment_slideshow.xml" value="0.25416666666666665" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/layout/initial_setup_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/layout/location_fav_single.xml" value="0.25416666666666665" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/layout/map_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/layout/nav_header_home.xml" value="0.264" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/layout/one_fav_details_fragment.xml" value="0.20104166666666667" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/layout/settings_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/layout/temp_day_single.xml" value="0.25416666666666665" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/layout/temp_hour_day.xml" value="0.264" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/layout/temp_hour_day_single.xml" value="0.25416666666666665" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/layout/weather_details_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/menu/activity_main_drawer.xml" value="0.25416666666666665" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/menu/home.xml" value="0.25416666666666665" />
+        <entry key="..\:/ITI/kotlin/WeatherForecast/app/src/main/res/xml/xml.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

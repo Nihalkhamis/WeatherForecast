@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:fillViewport="true"
+        android:padding="10dp"
+        tools:context=".home.homefragment.view.HomeFragment">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/gov_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alexandria Governorate"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/date_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Fri, 26 Feb"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/gov_txt" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/weather_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@color/pink"
+                android:padding="10dp"
+                app:cardBackgroundColor="@color/pink"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/date_txt">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/weather_img"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/weather_ic"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/weather_temp_txt" />
+
+                    <TextView
+                        android:id="@+id/weather_temp_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="13"
+                        android:textColor="@color/white"
+                        android:textSize="35sp"
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/weather_status_txt" />
+
+                    <TextView
+                        android:id="@+id/temp_type_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="C"
+                        android:textColor="@color/white"
+                        app:layout_constraintStart_toEndOf="@+id/weather_temp_txt"
+                        app:layout_constraintTop_toTopOf="@+id/weather_temp_txt" />
+
+                    <TextView
+                        android:id="@+id/weather_status_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Clear sky"
+                        android:textColor="@color/white"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/weatherProperties_card"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="30dp"
+                android:padding="10dp"
+                app:cardBackgroundColor="@color/gray_background"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tempDay_rv">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="10dp">
+
+                    <include
+                        android:id="@+id/pressure_layout"
+                        layout="@layout/weather_details_layout"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        app:layout_constraintEnd_toStartOf="@+id/humidity_layout"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <include
+                        android:id="@+id/humidity_layout"
+                        layout="@layout/weather_details_layout"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        app:layout_constraintEnd_toStartOf="@+id/wind_layout"
+                        app:layout_constraintStart_toEndOf="@+id/pressure_layout"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <include
+                        android:id="@+id/wind_layout"
+                        layout="@layout/weather_details_layout"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/humidity_layout"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <include
+                        android:id="@+id/cloud_layout"
+                        layout="@layout/weather_details_layout"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        app:layout_constraintEnd_toStartOf="@+id/humidity_layout"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/pressure_layout" />
+
+                    <include
+                        android:id="@+id/ultraViolet_layout"
+                        layout="@layout/weather_details_layout"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        app:layout_constraintEnd_toStartOf="@+id/wind_layout"
+                        app:layout_constraintStart_toEndOf="@+id/pressure_layout"
+                        app:layout_constraintTop_toBottomOf="@+id/humidity_layout" />
+
+                    <include
+                        android:id="@+id/visibility_layout"
+                        layout="@layout/weather_details_layout"
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/humidity_layout"
+                        app:layout_constraintTop_toBottomOf="@+id/wind_layout" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/tempDay_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tempDayHour_rv"
+                tools:itemCount="4"
+                tools:listitem="@layout/temp_day_single" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/tempDayHour_rv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/weather_card" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+</layout>
